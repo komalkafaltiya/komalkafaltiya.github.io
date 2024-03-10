@@ -1,0 +1,79 @@
+body{
+    width: 800px;
+    height: 1000px;
+    margin-left: 17%;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align:center;
+    
+    }
+  .container{
+       width: 550;
+       border: 2px solid grey;
+       margin: 0px;
+       padding: 45px;
+       background-color: #1F2937;
+       color: #108981;
+     }
+  
+  .heading{
+    font-family: Verdana,  Tahoma, sans-serif;
+      font-size: 40px;
+      line-height: 1;
+      color: white;
+      margin-bottom: 5px;
+      }
+  .heading span{
+      color: #00ffaa;
+    }
+  .subline{
+      color: white;
+      font-family: Verdana,  Tahoma, sans-serif;
+      margin-top: 12px;
+      font-size: 18px;
+    }
+  .generatePasswords{
+      background-color: #0fce8e;
+      color: white;
+      width: 190px;
+      padding: 10px;
+      font-family: Verdana,  Tahoma, sans-serif;
+      font-size: 17px;
+      border-radius: 7px;
+      border: none;
+      margin-top: 20px;
+      margin-bottom: 50px;
+      letter-spacing: 0.1em;
+      transition: transform 0.2s ease;
+    }
+  .generatePasswords:active{
+     transform: scale(0.96);
+     } 
+  .generatePasswords:hover{
+    background-color: #00ffaa;
+    cursor: pointer;
+    letter-spacing: 0.30em;
+    box-shadow: 0 0 35px #00ffaa; 
+  } 
+  .downcontent{
+      padding-top: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content:center;
+  }
+  #leftText{
+      padding: 7px 20px;
+      margin: 0px 12px;
+      border-radius: 7px;
+      border: none;
+      background-color: white
+    }
+  .fa-copy:hover {
+    color: #826afb;
+    cursor: pointer;
+   }
+  .fa-copy:active{
+    background: #809ce2; 
+  }
+  
+  
